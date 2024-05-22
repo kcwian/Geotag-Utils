@@ -10,4 +10,4 @@ source /opt/ros/noetic/setup.bash
 source /home/pi/catkin_geotagger/devel/setup.bash
 roslaunch run_main run_dgps_only.launch &
 cd /home/pi/Expo/ExpoGeotagger-FlaskServer/ && python3 app.py &
-cd /home/pi/Expo/ExpoGeotagger && expo start --no-dev
+cd /home/pi/Expo/ExpoGeotagger && npx expo start --no-dev 
